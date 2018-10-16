@@ -7,6 +7,8 @@ body {
      font-family: 'Run';
      src: url(../mithical.github.io/fonts/run.ttf);
  }
+ 
+ /* Header */
 
 .page-header {
     width: 100%;
@@ -99,19 +101,16 @@ body {
     font-size: 45px;
     color: #fff;
     display: block;
-    transition: 0.3s;
-    
+    transition: 0.3s;  
 }
 
 .overlay a:hover, .overlay a:focus {
     color: #fff;
-    
 	
 }
 
 .overlay a:active {
     color: #d4f0ff;
-
 }
 
 .overlay .closebutton {
