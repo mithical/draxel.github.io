@@ -5,7 +5,7 @@ body {
 
 @font-face {
      font-family: Run;
-     src: url(http://static.tumblr.com/nxstlsr/Il8nj837c/run.ttf);
+     src: url(../fonts/run.ttf);
  }
 
 .page-header {
@@ -28,7 +28,7 @@ body {
 	}
 
 .title {
-	font-family:  Run;
+	font-family: Run;
 	font-size: 35px;
 	margin-top: 2px;
 }
