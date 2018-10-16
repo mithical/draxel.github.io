@@ -4,7 +4,7 @@ body {
 }
 
 @font-face {
-     font-family: Run;
+     font-family: 'Run';
      src: url(../fonts/run.ttf);
  }
 
@@ -13,8 +13,6 @@ body {
     background-color: #00aeff;
     position: fixed;
     height: 50px;
-	text-align: center;
-	color: #ffffff;
     box-shadow: 0 -1px 3px #343434;
     -moz-box-shadow: 0 -1px 3px #343434;
     z-index: 1;
@@ -31,4 +29,6 @@ body {
 	font-family: Run;
 	font-size: 35px;
 	margin-top: 2px;
+	text-align: center;
+	color: #ffffff;
 }
