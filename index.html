@@ -21,18 +21,52 @@
     <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
 	<script src="../bootstrap/js/bootstrap.js"></script>
 	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+	<link rel="stylesheet" href="http://static.tumblr.com/nxstlsr/RcWn4wrfj/animate.css" type="text/css">
+	
+
+	
   </head>
 
 <body>
 
 <!-- Navigation Header -->
 <div class="page-header">
+	
+	<div class="logo">
+		<img src="../images/m-logo.png" alt="logo">
+	</div>
+	
+	<span onclick="openNav()">	
+	    <div class="menu animated bounceInRight">
+		   <button type="button" class="btn btn-blue"><i class="far fa-caret-square-left fa-2x"></i></button> 
+		</div>
+	</span>
+	
 	<div class="title">mithical</div>
+	
 </div>
 
+<!-- Navigation Overlay -->
+ <div id="myNav" class="overlay">
+ 	
+  <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+ 	
+  <div class="overlay-content">
+    <a href="#"><i class="fas fa-user-circle"></i> About</a>
+    <a href="http://mithical.com/twitch"><i class="fab fa-twitch"></i> Twitch</a>
+    <a href="#"><i class="fas fa-briefcase"></i> Business</a>
+    <a href="#"><i class="fas fa-camera"></i> Photography</a>
+    <a href="#"><i class="fas fa-archive"></i> Projects</a>
+    <a href="#"><i class="fas fa-gamepad"></i> Gaming</a>
+    <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+  </div>
+ 	
+</div> 
 
  </body>
 
+<script src="../bootstrap/js/openNav.js"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
