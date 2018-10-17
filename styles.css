@@ -1,6 +1,9 @@
 body {
 	font-family:  "Helvetica", serif, sans-serif;
 	font-size: 16px;
+	background-color: #f8f9fa;
+	padding-top: 55px;
+
 }
 
 /* Custom Fonts */
@@ -12,9 +15,10 @@ body {
  /* Header */
 
 .page-header {
+	position: fixed;
     width: 100%;
+	top: 0;
     background-color: #00aeff;
-    position: fixed;
     height: 50px;
     box-shadow: 0 -1px 3px #343434;
     -moz-box-shadow: 0 -1px 3px #343434;
@@ -27,12 +31,12 @@ body {
 	opacity: 0.95;	
 }
 
+
 .title {
 	position: relative;
 	font-family: Run;
 	font-size: 35px;
 	text-align: center;
-	color: #ffffff;
 	margin-top: 2px;
 }
 
@@ -42,24 +46,55 @@ body {
 	width: 45px;
 	margin-top: 3px;
 	margin-left: 10px;
+	
 }
 
 .menu {
 	position: relative;
 	float: right;
 	z-index: 101;
-	color: #fff;
 	margin-top: 2px;
 	
 
 }
 
+/* Header Background Colors */
+
+.content-white {
+	color: #ffffff;
+}
+
+.content-blue {
+	color: #00aeff;
+}
+
+.content-black {
+	color: #000;
+}
+
+bg-white {
+	background-color: #fff !important;
+}
+
+.bg-dark {
+	background-color: #000 !important;
+}
+
+.bg-iemulators {
+	background-color: #044ed1 !important;
+}
+
+.bg-twitch {
+	background-color: #6441A4 !important;
+}
+
 /* Button for Overlay */
 
 
-.btn-blue {
-    background-color: #00aeff;
+.btn-transparent {
+    background-color: transparent;
 	color: #fff;
+
 }
 
 .btn-blue:active,
@@ -68,6 +103,9 @@ body {
     background-image: none;
 }
 
+btn-blue i {
+	color: #fff;
+}
       
 /* Overlay Menu */
       
