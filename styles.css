@@ -6,7 +6,7 @@ html, body {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -23,7 +23,7 @@ body {
     src: url(../mithical.github.io/fonts/run.ttf);
  }
  
- /* Header */
+ /* --- Page Header --- */
 
 .page-header {
 	position: fixed;
@@ -64,6 +64,8 @@ body {
 	margin-top: 2px;
 }
 
+/* --- Page Content --- */
+
 .wrapper {
 	min-height: 100%;
 	margin-bottom: -200px; 
@@ -84,8 +86,13 @@ body {
 	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .2), inset 0 1px 0 rgba(255, 255, 255, 0.9);
 	-ms-box-shadow: 0 1px 2px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, 0.9) inset;
 	-o-box-shadow: 0 1px 2px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, 0.9) inset;
-
 }
+
+.borderless-container {
+	margin: 10px auto;
+}
+
+/* --- Page Footer --- */
 
 .page-footer {
 	width: 100%;
@@ -100,7 +107,7 @@ body {
 
 .page-footer .copyright {
 	color: #fff;
-	font-size: 1em;
+	font-size: .9em;
 	display: block;
 
 }
@@ -213,6 +220,44 @@ body {
 
 /* --- Media Queries --- */
 
+@media (min-width: 576px) {
+	.page-container {
+		max-width: 540px;
+  }
+  	.borderless-container {
+  		max-width: 540px;
+  	}
+}
+
+@media (min-width: 768px) {
+	.page-container {
+		max-width: 750px;
+  }
+	.borderless-container {
+		max-width: 750px;
+	}
+}
+
+@media (min-width: 992px) {
+	.page-container {
+		max-width: 970px;
+  }
+	.borderless-container {
+		max-width: 970px;
+   }
+}
+
+@media (min-width: 1200px) {
+	.page-container {
+		max-width: 1070px;
+  }
+	.borderless-container {
+		max-width: 1070px;
+   } 
+}
+
+/* iPhone 6 to iPhone XS Max */
+
 @media only screen 
     and (min-device-width: 320px) 
     and (max-device-width: 736px) 
@@ -225,34 +270,11 @@ body {
         }
 }
 
-@media (min-width: 576px) {
-	.page-container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-   .page-container {
-    max-width: 750px;
-  }
-}
-@media (min-width: 992px) {
-   .page-container {
-    max-width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-   .page-container {
-    max-width: 1070px;
-  }
-
 /* iPhone XS Max Resolution */
 @media only screen 
     and (device-width : 414px) 
     and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 3) { 
-	
-
+    and (-webkit-device-pixel-ratio : 3) { 	
 }
 
 @media only screen 
@@ -260,8 +282,6 @@ and (min-device-width : 375px)
 and (max-device-width : 812px) 
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : portrait) { 
-	
-
 }
 
 /* iPhone 6, 7, 8 */
