@@ -213,10 +213,16 @@ body {
 
 /* --- Media Queries --- */
 
-@media (max-width: 575px) { 
-	.page-container {
-		margin: 15px;
-	}
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 736px) 
+    and (orientation: portrait), only screen
+    and (min-device-width: 320px) 
+    and (max-device-width: 736px) 
+    and (orientation: landscape) {
+        .page-container {
+            width: 90%;
+        }
 }
 
 @media (min-width: 576px) {
