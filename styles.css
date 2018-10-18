@@ -221,7 +221,7 @@ body {
     and (max-device-width: 736px) 
     and (orientation: landscape) {
         .page-container {
-            width: 90%;
+            width: 95%;
         }
 }
 
