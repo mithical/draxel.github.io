@@ -44,9 +44,8 @@ body {
 .title {
 	position: relative;
 	font-family: Run;
-	font-size: 35px;
+	font-size: 38px;
 	text-align: center;
-	margin-top: 2px;
 }
 
 .logo img {
@@ -268,6 +267,9 @@ body {
         .page-container {
             width: 95%;
         }
+		.borderless-container {
+			width: 95%;
+		}
 }
 
 /* iPhone XS Max Resolution */
