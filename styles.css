@@ -228,12 +228,12 @@ body {
     width: 1070px;
   }
 
-/* iPhone X Resolution */
+/* iPhone XS Max Resolution */
 
 @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) { 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 3) { 
 	
 	.page-container {
 		width: 500px;
