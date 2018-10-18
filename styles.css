@@ -76,7 +76,6 @@ body {
 	background-color: #ffffff;
 	border-radius: 5px;
 	margin: 10px auto;
-	max-width: 55%;  
 		
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -177,10 +176,11 @@ body {
 
 .overlay-content {
     position: relative;
-    top: 25%;
+    top: 10%;
     width: 100%;
     text-align: center;
     margin-top: 15px;
+	
 }
 
 .overlay a {
@@ -204,9 +204,26 @@ body {
 
 .overlay .closebutton {
     position: absolute;
-    top: -22px;
-    right: 5px;
-    font-size: 60px;
+    top: -15px;
+    right: 1px;
+    font-size: 50px;
 	width: 50px;
 	text-decoration: none;
 }
+
+/* --- Media Queries --- */
+
+@media (min-width: 768px) {
+  .page-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .page-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .page-container {
+    width: 1070px;
+  }
