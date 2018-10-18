@@ -213,12 +213,6 @@ body {
 
 /* --- Media Queries --- */
 
-@media (min-width: 320px) {
-  .page-container {
-    max-width: 300px;
-  }
-}
-
 @media (min-width: 576px) {
   .page-container {
     max-width: 540px;
@@ -241,7 +235,6 @@ body {
   }
 
 /* iPhone XS Max Resolution */
-
 @media only screen 
     and (device-width : 414px) 
     and (device-height : 896px) 
@@ -252,6 +245,27 @@ body {
 	}
 }
 
+/* iPhone 6, 7, 8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { /* STYLES GO HERE */ }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { /* STYLES GO HERE */}
+
+/* iPhone 6 Plus, 7 Plus, 8 Plus */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { /* STYLES GO HERE */ }
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) { /* STYLES GO HERE */}
 
 
 
