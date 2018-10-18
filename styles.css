@@ -213,25 +213,31 @@ body {
 
 /* --- Media Queries --- */
 
+@media (min-width: 320px) {
+  .page-container {
+    max-width: 450px;
+  }
+}
+
 @media (min-width: 576px) {
   .page-container {
-    width: 540px;
+    max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
   .page-container {
-    width: 750px;
+    max-width: 750px;
   }
 }
 @media (min-width: 992px) {
   .page-container {
-    width: 970px;
+    max-width: 970px;
   }
 }
 @media (min-width: 1200px) {
   .page-container {
-    width: 1070px;
+    max-width: 1070px;
   }
 
 /* iPhone XS Max Resolution 
@@ -246,6 +252,7 @@ body {
 	}
 }
 */
+
 
 
 
