@@ -204,7 +204,7 @@ body {
 
 .overlay .closebutton {
     position: absolute;
-    top: -15px;
+    top: -16px;
     right: 1px;
     font-size: 50px;
 	width: 50px;
@@ -213,24 +213,30 @@ body {
 
 /* --- Media Queries --- */
 
+@media (max-width: 575px) { 
+	.page-container {
+		padding: 20px;
+	}
+}
+
 @media (min-width: 576px) {
-  .page-container {
+	.page-container {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .page-container {
+   .page-container {
     max-width: 750px;
   }
 }
 @media (min-width: 992px) {
-  .page-container {
+   .page-container {
     max-width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  .page-container {
+   .page-container {
     max-width: 1070px;
   }
 
@@ -240,9 +246,7 @@ body {
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 3) { 
 	
-	.page-container {
-		width: 350px;
-	}
+
 }
 
 @media only screen 
@@ -251,9 +255,7 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : portrait) { 
 	
-	.page-container {
-		padding: 20px;
-	}
+
 }
 
 /* iPhone 6, 7, 8 */
