@@ -215,7 +215,7 @@ body {
 
 @media (max-width: 575px) { 
 	.page-container {
-		padding: 20px;
+		margin: 15px;
 	}
 }
 
