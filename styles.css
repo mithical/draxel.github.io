@@ -215,7 +215,7 @@ body {
 
 @media (min-width: 320px) {
   .page-container {
-    max-width: 450px;
+    max-width: 300px;
   }
 }
 
@@ -248,7 +248,7 @@ body {
     and (-webkit-device-pixel-ratio : 3) { 
 	
 	.page-container {
-		width: 300px;
+		width: 80%;
 	}
 }
 
