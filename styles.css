@@ -213,6 +213,12 @@ body {
 
 /* --- Media Queries --- */
 
+@media (min-width: 576px) {
+  .page-container {
+    width: 540px;
+  }
+}
+
 @media (min-width: 768px) {
   .page-container {
     width: 750px;
@@ -228,7 +234,7 @@ body {
     width: 1070px;
   }
 
-/* iPhone XS Max Resolution */
+/* iPhone XS Max Resolution 
 
 @media only screen 
     and (device-width : 414px) 
@@ -239,7 +245,7 @@ body {
 		width: 500px;
 	}
 }
-
+*/
 
 
 
