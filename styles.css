@@ -97,6 +97,7 @@ body {
 
 img.smallWidth {
 	width: 200px;
+	padding-top: 15px;
 }
 
 img.fullWidth {
