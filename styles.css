@@ -256,6 +256,12 @@ img.fullWidth {
 	.banner img {
 		max-width: 540px;
 }
+
+	.overlay-content {
+		top: 25%;
+	
+}
+
 }
 
 @media (min-width: 768px) {
@@ -268,6 +274,12 @@ img.fullWidth {
 	.banner img {
 		max-width: 750px;
 }
+
+	.overlay-content {
+    	top: 25%;
+	
+}
+
 }
 
 @media (min-width: 992px) {
@@ -277,8 +289,12 @@ img.fullWidth {
 	.borderless-container {
 		max-width: 970px;
    }
-.banner img {
-	max-width: 970px;
+	.banner img {
+		max-width: 970px;
+}
+
+	.overlay-content {
+		top: 25%;	
 }
 
 }
