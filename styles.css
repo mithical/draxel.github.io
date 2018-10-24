@@ -229,7 +229,7 @@ img.fullWidth {
 .overlay a:hover, .overlay a:focus {
     color: #fff;
 	text-decoration: none;
-	
+	text-shadow: 0 1px 15px #275fa1;
 }
 
 .overlay a:active {
