@@ -539,7 +539,7 @@ pre code {
   overflow-y: scroll;
 }
 
-.container {
+.page-container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -548,30 +548,30 @@ pre code {
 }
 
 @media (min-width: 576px) {
-  .container {
+  .page-container {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container {
+  .page-container {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container {
+  .page-container {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
+  .page-container {
     max-width: 1140px;
   }
 }
 
-.container-fluid {
+.page-container-fluid {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -3964,8 +3964,8 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
 }
 
-.navbar > .container,
-.navbar > .container-fluid {
+.navbar > .page-container,
+.navbar > .page-container-fluid {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -4053,8 +4053,8 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 575.98px) {
-  .navbar-expand-sm > .container,
-  .navbar-expand-sm > .container-fluid {
+  .navbar-expand-sm > .page-container,
+  .navbar-expand-sm > .page-container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
@@ -4078,8 +4078,8 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-sm > .container,
-  .navbar-expand-sm > .container-fluid {
+  .navbar-expand-sm > .page-container,
+  .navbar-expand-sm > .page-container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
@@ -4095,8 +4095,8 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container,
-  .navbar-expand-md > .container-fluid {
+  .navbar-expand-md > .page-container,
+  .navbar-expand-md > .page-container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
@@ -4120,8 +4120,8 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-md > .container,
-  .navbar-expand-md > .container-fluid {
+  .navbar-expand-md > .page-container,
+  .navbar-expand-md > .page-container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
@@ -4137,8 +4137,8 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 991.98px) {
-  .navbar-expand-lg > .container,
-  .navbar-expand-lg > .container-fluid {
+  .navbar-expand-lg > .page-container,
+  .navbar-expand-lg > .page-container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
@@ -4162,8 +4162,8 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-lg > .container,
-  .navbar-expand-lg > .container-fluid {
+  .navbar-expand-lg > .page-container,
+  .navbar-expand-lg > .page-container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
@@ -4179,8 +4179,8 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 1199.98px) {
-  .navbar-expand-xl > .container,
-  .navbar-expand-xl > .container-fluid {
+  .navbar-expand-xl > .page-container,
+  .navbar-expand-xl > .page-container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
@@ -4204,8 +4204,8 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-xl > .container,
-  .navbar-expand-xl > .container-fluid {
+  .navbar-expand-xl > .page-container,
+  .navbar-expand-xl > .page-container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
@@ -4227,8 +4227,8 @@ input[type="button"].btn-block {
   justify-content: flex-start;
 }
 
-.navbar-expand > .container,
-.navbar-expand > .container-fluid {
+.navbar-expand > .page-container,
+.navbar-expand > .page-container-fluid {
   padding-right: 0;
   padding-left: 0;
 }
@@ -4247,8 +4247,8 @@ input[type="button"].btn-block {
   padding-left: 0.5rem;
 }
 
-.navbar-expand > .container,
-.navbar-expand > .container-fluid {
+.navbar-expand > .page-container,
+.navbar-expand > .page-container-fluid {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
 }
@@ -8985,7 +8985,7 @@ a.text-dark:hover, a.text-dark:focus {
   body {
     min-width: 992px !important;
   }
-  .container {
+  .page-container {
     min-width: 992px !important;
   }
   .navbar {
