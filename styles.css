@@ -228,6 +228,7 @@ img.fullWidth {
 
 .overlay a:hover, .overlay a:focus {
     color: #fff;
+	text-decoration: none;
 	
 }
 
