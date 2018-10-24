@@ -267,13 +267,13 @@ img.fullWidth {
 
 @media (min-width: 768px) {
 	.page-container {
-		max-width: 750px;
+		max-width: 700px;
   }
 	.borderless-container {
-		max-width: 750px;
+		max-width: 700px;
 	}
 	.banner img {
-		max-width: 750px;
+		max-width: 700px;
 }
 
 	.overlay-content {
@@ -285,13 +285,13 @@ img.fullWidth {
 
 @media (min-width: 992px) {
 	.page-container {
-		max-width: 970px;
+		max-width: 800px;
   }
 	.borderless-container {
-		max-width: 970px;
+		max-width: 800px;
    }
 	.banner img {
-		max-width: 970px;
+		max-width: 800px;
 }
 
 	.overlay-content {
@@ -302,13 +302,13 @@ img.fullWidth {
 
 @media (min-width: 1200px) {
 	.page-container {
-		max-width: 1070px;
+		max-width: 900px;
   }
 	.borderless-container {
-		max-width: 1070px;
+		max-width: 900px;
    } 
 	.banner img {
-		max-width: 1070px;
+		max-width: 900px;
 	}
 }
 
