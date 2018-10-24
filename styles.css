@@ -95,6 +95,18 @@ body {
 	max-width: 100%;
 }
 
+img.smallWidth {
+	width: 200px;
+}
+
+img.fullWidth {
+	width: 100%;
+}
+
+.twitter {
+	width: 500px;
+}
+
 .divider {
 	height: 1px;
 	background: #e7e7e7;
