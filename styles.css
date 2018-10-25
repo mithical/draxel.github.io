@@ -189,6 +189,7 @@ img.fullWidth {
 }
 
 .typewriter h1 {
+  font-size: 2rem;
   font-family: monospace; /* Web-safe typewriter-like font */
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #00aeff; /* The typwriter cursor */
@@ -299,9 +300,6 @@ img.fullWidth {
 		top: 25%;	
 }
 
-	.typewriter h1 {
-		font-size: 30px;
-}
 
 }
 
@@ -351,9 +349,7 @@ img.fullWidth {
 		max-width: 900px;
 	}
 	
-	.typewriter h1 {
-		font-size: 40px;
-}
+
 }
 
 /* iPhone 6 to iPhone XS Max */
