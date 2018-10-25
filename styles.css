@@ -179,7 +179,7 @@ img.fullWidth {
 .typewriter h1 {
   font-family: monospace; /* Web-safe typewriter-like font */
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15em solid #00aeff; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
@@ -197,7 +197,7 @@ img.fullWidth {
 /* The typewriter cursor effect */
 @keyframes blinking-cursor {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: #00aeff; }
 }
 
 
@@ -284,8 +284,11 @@ img.fullWidth {
 }
 
 	.overlay-content {
-		top: 25%;
-	
+		top: 25%;	
+}
+
+	.typewriter h1 {
+		font-size: 30px;
 }
 
 }
@@ -335,6 +338,10 @@ img.fullWidth {
 	.banner img {
 		max-width: 900px;
 	}
+	
+	.typewriter h1 {
+		font-size: 40px;
+}
 }
 
 /* iPhone 6 to iPhone XS Max */
