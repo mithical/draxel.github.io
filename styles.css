@@ -90,6 +90,10 @@ body {
 	margin: 10px auto;
 }
 
+img.icon-size {
+	width: 25px;
+}
+
 .banner img {
 	max-width: 100%;
 }
@@ -154,6 +158,10 @@ img.fullWidth {
 
 .content-black {
 	color: #000;
+}
+
+.content-iemulators {
+	color: #014ed1;
 }
 
 .bg-main {
@@ -359,6 +367,10 @@ img.fullWidth {
 		.borderless-container {
 			width: 95%;
 		}
+		
+		.typewriter h1 {
+			font-size: 1px;
+			}
 
 }
 
