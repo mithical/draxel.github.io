@@ -189,7 +189,7 @@ img.fullWidth {
 }
 
 .typewriter h1 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: monospace; /* Web-safe typewriter-like font */
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #00aeff; /* The typwriter cursor */
@@ -300,6 +300,10 @@ img.fullWidth {
 		top: 25%;	
 }
 
+.typewriter h1 {
+  font-size: 2rem;
+  }
+
 
 }
 
@@ -319,6 +323,11 @@ img.fullWidth {
 	
 }
 
+.typewriter h1 {
+  font-size: 2rem;
+  }
+
+
 }
 
 @media (min-width: 992px) {
@@ -336,6 +345,11 @@ img.fullWidth {
 		top: 25%;	
 }
 
+.typewriter h1 {
+  font-size: 2rem;
+  }
+
+
 }
 
 @media (min-width: 1200px) {
@@ -348,6 +362,11 @@ img.fullWidth {
 	.banner img {
 		max-width: 900px;
 	}
+	
+	.typewriter h1 {
+	  font-size: 2rem;
+	  }
+	
 	
 
 }
