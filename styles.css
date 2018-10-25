@@ -189,7 +189,7 @@ img.fullWidth {
 }
 
 .typewriter h1 {
-  font-size: 1rem;
+  font-size: .5rem;
   font-family: monospace; /* Web-safe typewriter-like font */
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #00aeff; /* The typwriter cursor */
