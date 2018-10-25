@@ -91,7 +91,7 @@ body {
 }
 
 img.icon-size {
-	width: 25px;
+	width: 20px;
 }
 
 .banner img {
@@ -371,7 +371,10 @@ img.fullWidth {
 		.typewriter h1 {
 			font-size: 1px;
 			}
-
+			
+		img.icon-size {
+			width: 20px;
+		}
 }
 
 /* iPhone XS Max Resolution */
