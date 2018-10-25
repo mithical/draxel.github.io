@@ -184,6 +184,10 @@ img.fullWidth {
 	background-color: #6441A4 !important;
 }
 
+.bg-gray {
+	background-color: gray !important;
+}
+
 .typewriter h1 {
   font-family: monospace; /* Web-safe typewriter-like font */
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -367,6 +371,10 @@ img.fullWidth {
 		.borderless-container {
 			width: 95%;
 		}
+		
+		.typewriter h1 {
+			font-size: 1em;
+			}
 			
 		img.icon-size {
 			width: 20px;
