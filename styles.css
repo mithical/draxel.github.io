@@ -90,6 +90,11 @@ body {
 	margin: 10px auto;
 }
 
+#aboutBorder {
+	border-style: dashed;
+	padding: 10px;
+}
+
 img.icon-size {
 	width: 20px;
 }
