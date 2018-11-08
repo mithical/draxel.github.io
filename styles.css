@@ -228,7 +228,7 @@ img.fullWidth {
 .btn-iemulators:active,
 .btn-iemulators.active,
 .open > .dropdown-toggle.btn-iemulators {
-  background-image: none;
+	background: none #1949a0;
 }
 .btn-iemulators.disabled,
 .btn-iemulators[disabled],
