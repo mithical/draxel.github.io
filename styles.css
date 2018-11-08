@@ -209,6 +209,49 @@ img.fullWidth {
 .bg-gray {
 	background-color: gray !important;
 }
+.btn-iemulators {
+  color: #fff;
+  background-color: #044ed1;
+  border-color: #044ed1;
+	opacity: 0.95;
+}
+
+.btn-iemulators:hover,
+.btn-iemulators:focus,
+.btn-iemulators:active,
+.btn-iemulators.active,
+.open > .dropdown-toggle.btn-danger {
+  color: #fff;
+  background-color: #044ed1;
+  border-color: #044ed1;
+}
+.btn-iemulators:active,
+.btn-iemulators.active,
+.open > .dropdown-toggle.btn-iemulators {
+  background-image: none;
+}
+.btn-iemulators.disabled,
+.btn-iemulators[disabled],
+fieldset[disabled] .btn-danger,
+.btn-iemulators.disabled:hover,
+.btn-iemulators[disabled]:hover,
+fieldset[disabled] .btn-iemulators:hover,
+.btn-iemulators.disabled:focus,
+.btn-iemulators[disabled]:focus,
+fieldset[disabled] .btn-iemulators:focus,
+.btn-iemulators.disabled:active,
+.btn-iemulators[disabled]:active,
+fieldset[disabled] .btn-iemulators:active,
+.btn-iemulators.disabled.active,
+.btn-iemulators[disabled].active,
+fieldset[disabled] .btn-iemulators.active {
+  background-color: #044ed1;
+  border-color: #044ed1;
+}
+.btn-iemulators .badge {
+  color: #044ed1;
+  background-color: #fff;
+}
 
 .typewriter h1 {
   font-size: 1.5rem;
