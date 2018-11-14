@@ -134,12 +134,21 @@ img.fullWidth {
 	right: 5px;
 }
 
-.divider-small {
+.divider-md {
 	height: 1px;
 	background: #e7e7e7;
 	margin: 5px auto;
 	border-width: 1px;
 	width: 50%;
+	position: relative;
+}
+
+.divider-sm {
+	height: 1px;
+	background: #e7e7e7;
+	margin: 10px auto;
+	border-width: 1px;
+	width: 10%;
 	position: relative;
 }
 
