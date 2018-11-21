@@ -316,6 +316,11 @@ img.fullWidth {
 
 /* -- Pokemon Table -- */
 
+.gameCaught {
+	position: relative;
+	width: 100px;
+	bottom: 5px;
+}
 .pokeImage {
 	display: block;
 	width: 100px;
@@ -329,8 +334,8 @@ img.fullWidth {
 	max-width: 80px;
 	margin: auto;
 	
-	
 }
+
 
 img.smallerPoke {
 	max-width: 80%;
