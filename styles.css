@@ -314,6 +314,55 @@ img.fullWidth {
 	text-decoration: none;
 }
 
+/* -- Pokemon Table -- */
+
+.pokeImage {
+	display: block;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	overflow:  hidden;
+	
+}
+
+.pokeImage img {
+	max-width: 80px;
+	margin: auto;
+	
+	
+}
+
+img.smallerPoke {
+	max-width: 80%;
+}
+
+
+.pokeballImage {
+	display: block;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	overflow: hidden;
+	
+}
+
+.pokeInfo {
+
+	line-height: 20px;
+	left: 20px;
+	position: relative;
+}
+
+
+
+.pokeRow img {
+	z-index: -1;
+	overflow: hidden;
+	left: 70px;
+	position: relative;
+	display: block;
+}
+
 
 /* --- Media Queries --- */
 
