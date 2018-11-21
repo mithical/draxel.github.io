@@ -5104,7 +5104,7 @@ input[type="button"].btn-block {
   -ms-flex: 1;
   flex: 1;
   padding: 10px;
-  line-height: 15px;
+  line-height: 20px;
 }
 
 .list-group {
