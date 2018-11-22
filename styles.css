@@ -341,7 +341,10 @@ img.fullWidth {
 
 
 img.smallerPoke {
+	position: relative;
+	 
 	max-width: 80%;
+	left: 10px;
 }
 
 
