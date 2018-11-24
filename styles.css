@@ -218,6 +218,10 @@ img.fullWidth {
 	background-color: #6441A4 !important;
 }
 
+.bg-pokemon {
+	background-color: #ffcb04 !important;
+}
+
 .bg-gray {
 	background-color: gray !important;
 }
@@ -324,6 +328,13 @@ img.fullWidth {
 	width: 110px;
 	bottom: 5px;
 }
+
+.pokemonMoon {
+	position: relative;
+	width: 100px;
+	bottom: 5px;
+}
+
 .pokeImage {
 	display: block;
 	width: 100px;
@@ -373,6 +384,8 @@ img.smallerPoke {
 	position: relative;
 	display: block;
 }
+
+
 
 
 /* --- Media Queries --- */
