@@ -122,6 +122,25 @@ img.fullWidth {
 	width: 100%;
 }
 
+img.halfWidth {
+	width: 50%;
+}
+
+img.smallerWidth {
+	width: 20%;
+}
+
+img.alignCenter {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.inl2mages {
+	display: inline-block;
+
+}
+
 .twitter {
 	width: 500px;
 }
