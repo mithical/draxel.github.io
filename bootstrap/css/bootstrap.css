@@ -5365,7 +5365,7 @@ button.close {
   width: auto;
   margin: 0.5rem;
   pointer-events: none;
-  top: 25px;
+
 }
 
 .modal.fade .modal-dialog {
