@@ -382,6 +382,13 @@ img.smallerPoke {
 	left: 10px;
 }
 
+img.biggerPoke {
+	position: relative;
+	max-width: 130%;
+	right: 10px;
+
+}
+
 
 .pokeballImage {
 	display: block;
