@@ -334,6 +334,7 @@ img.alignCenter {
 
 .overlay a:active {
     color: #d4f0ff;
+	text-shadow: 0 1px 10px #275fa1;
 }
 
 .overlay .closebutton {
