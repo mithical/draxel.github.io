@@ -513,6 +513,11 @@ img.biggerPoke {
   	.borderless-container {
   		max-width: 540px;
   	}
+  	
+  	.container-mobile {
+  		max-width: 540px;
+  		
+  		}
 	.banner img {
 		max-width: 540px;
 }
@@ -535,6 +540,11 @@ img.biggerPoke {
 	.borderless-container {
 		max-width: 700px;
 	}
+	
+		.container-mobile {
+			max-width: 700px;
+			
+			}
 	.banner img {
 		max-width: 700px;
 }
@@ -562,6 +572,11 @@ img.biggerPoke {
 		max-width: 800px;
 }
 
+	.container-mobile {
+		max-width: 800px;
+		
+		}
+
 	.overlay-content {
 		top: 25%;	
 }
@@ -583,6 +598,11 @@ img.biggerPoke {
 	.banner img {
 		max-width: 900px;
 	}
+	
+		.container-mobile {
+			max-width: 900px;
+			
+			}
 	
 	.typewriter h1 {
 	  font-size: 2rem;
