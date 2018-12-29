@@ -62,7 +62,6 @@ body {
 	margin-top: 2px;
 }
 
-
 /* --- Page Content --- */
 
 .wrapper {
@@ -425,8 +424,6 @@ img.alignCenter {
 	text-decoration: none;
 }
 
-
-
 /* -- Pokemon Table -- */
 
 .gameCaught {
@@ -675,9 +672,7 @@ and (orientation : portrait) {
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
-and (orientation : portrait) { 
-	
-}
+and (orientation : portrait) { /* STYLES GO HERE */ }
 
 @media only screen 
 and (min-device-width : 375px) 
