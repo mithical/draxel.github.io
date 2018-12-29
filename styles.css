@@ -90,6 +90,36 @@ body {
 	margin: 10px auto;
 }
 
+.container-max {
+	width: 98%;
+	border-color: #ddd;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 10px auto;
+
+}
+
+.container-pokemon {
+	width: 400px;
+	display: inline-block;
+	margin: 10px;
+	background-color: #ffffff;
+		
+	-webkit-border-radius: 10px;
+	border-radius: 10px 50px 10px 50px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+		    
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .2), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+	-ms-box-shadow: 0 1px 2px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, 0.9) inset;
+	-o-box-shadow: 0 1px 2px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, 0.9) inset;
+	border: 1px solid #71ccfb;
+}
+
+
+
+
+
 .padded10 {
 	padding: 10px;
 }
@@ -165,6 +195,7 @@ img.alignCenter {
 
 }
 
+
 .twitter {
 	width: 500px;
 }
@@ -172,7 +203,6 @@ img.alignCenter {
 .medium {
 	width: 600px;
 }
-
 
 .divider {
 	height: 1px;
@@ -549,6 +579,14 @@ img.biggerPoke {
 			
 		img.icon-size {
 			width: 20px;
+		}
+		
+		.container-max {
+			width: 95%;
+		}
+		
+		.container-pokemon {
+			width: 95%;
 		}
 }
 
