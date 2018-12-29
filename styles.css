@@ -102,6 +102,7 @@ body {
 .container-pokemon {
 	width: 400px;
 	display: inline-block;
+	vertical-align: top;
 	margin: 10px;
 	background-color: #ffffff;
 		
@@ -423,7 +424,7 @@ img.alignCenter {
 }
 
 .pokeImage img {
-	max-width: 80px;
+	max-width: 100%;
 	margin: auto;
 	
 }
