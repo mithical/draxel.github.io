@@ -118,7 +118,7 @@ body {
 }
 
 .container-mobile {
-
+width: 98%;
 border-color: #ddd;
 background-color: #ffffff;
 border-radius: 5px;
@@ -618,6 +618,14 @@ img.biggerPoke {
 		
 		.container-pokemon {
 			width: 100%;
+		}
+		
+		.container-mobile {
+			width: 95%;
+		}
+		
+		.container-max-color {
+			width: 95%;
 		}
 }
 
