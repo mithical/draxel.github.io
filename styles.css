@@ -425,6 +425,8 @@ img.alignCenter {
 	text-decoration: none;
 }
 
+
+
 /* -- Pokemon Table -- */
 
 .gameCaught {
@@ -647,6 +649,12 @@ img.biggerPoke {
 		.container-max-color {
 			width: 95%;
 		}
+		
+		.mb-0 {
+			max-width: 70%;
+			font-size: 14px;
+		
+		}
 }
 
 /* iPhone XS Max Resolution */
@@ -668,10 +676,7 @@ and (orientation : portrait) {
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
 and (orientation : portrait) { 
-	.mb-0 {
-		
-		font-size: 10px;
-	}
+	
 }
 
 @media only screen 
