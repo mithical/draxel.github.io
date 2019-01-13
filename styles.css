@@ -458,6 +458,15 @@ img.alignCenter {
 	
 }
 
+img.evenSmallerPoke {
+	
+	position: relative;
+	 
+	max-width: 50%;
+	left: 10px;
+	
+}
+	
 
 img.smallerPoke {
 	position: relative;
